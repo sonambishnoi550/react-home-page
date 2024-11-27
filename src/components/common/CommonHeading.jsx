@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const CommonHeading = () => {
   return (
     <div>
       <h1>Hlo World</h1>
@@ -8,4 +8,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default CommonHeading
