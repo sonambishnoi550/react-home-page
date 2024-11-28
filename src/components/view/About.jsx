@@ -1,8 +1,12 @@
 import React from 'react'
 import Hero from '../about/Hero'
+import MapCard from '../about/MapCard'
 const About = () => {
   return (
-    <div><Hero/></div>
+      <div><Hero />
+          <MapCard/>
+      </div>
+      
   )
 }
 

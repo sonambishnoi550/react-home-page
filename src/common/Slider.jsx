@@ -3,9 +3,9 @@ import { Autoplay, Pagination, } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import 'swiper/css/pagination';
-import swiper1 from '../../assets/png/slick1.png'
-import swiper2 from '../../assets/png/slick2.png'
-import swiper3 from '../../assets/png/slick3.png'
+import swiper1 from '../assets/images/png/image1.png'
+import swiper2 from '../assets/images/png/image2.png'
+import swiper3 from '../assets/images/png/image3.png'
 
 
 

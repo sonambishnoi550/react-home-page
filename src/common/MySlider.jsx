@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import one from '../../assets/png/slider1.png'
-import two from '../../assets/png/slider2.png'
-import three from '../../assets/png/slider3.png'
-import four from '../../assets/png/slider4.png'
+import one from '../assets/images/png/image1.png'
+import two from '../assets/images/png/image2.png'
+import three from '../assets/images/png/image3.png'
+import four from '../assets/images/png/image4.png'
 
 const MySlider = () => {
     var settings = {

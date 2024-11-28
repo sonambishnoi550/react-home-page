@@ -1,5 +1,5 @@
 import React from 'react'
-import two from '../../assets/png/slider1.png'
+import two from '../../assets/images/png/image3.png'
 
 const Header = () => {
   return (
