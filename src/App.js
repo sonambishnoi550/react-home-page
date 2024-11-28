@@ -1,9 +1,11 @@
 
 import './App.css';
 import Hero from './components/Hero';
-import About from './components/About';
 import MySlider from './components/common/MySlider';
 import Slider from './components/common/Slider';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/view/Home';
+import About from './components/view/About' 
 
 function App() {
   return (
@@ -11,7 +13,13 @@ function App() {
       <Hero />
       <About />
       <MySlider />
-      <Slider/>
+      <Slider />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
