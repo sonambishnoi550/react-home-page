@@ -7,7 +7,7 @@ function TimerComponent() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setCount((prevCount) => prevCount + 1);
-        }, 100);
+        }, 1000);
 
         return () => clearTimeout(timer);
     }, [count]);
