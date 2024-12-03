@@ -4,9 +4,10 @@ import MapCard from '../about/MapCard'
 import Counter from '../../common/Counter'
 const About = () => {
   return (
-      <div><Hero />
+    <div>
+      <Hero />
       <MapCard />
-      <Counter/>
+      <Counter />
       </div>
       
   )

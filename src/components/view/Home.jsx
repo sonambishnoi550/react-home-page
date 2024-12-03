@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from '../home/Header';
+import Timer from '../home/Timer'
 const Home = () => {
   return (
     <div>
-      <Header/>
+      <Header />
+      <Timer/>
     </div>
   )
 }

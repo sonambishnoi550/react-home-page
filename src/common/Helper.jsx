@@ -28,3 +28,27 @@ export const MAP_CARD = [
     },
 
 ]
+export const FOOTER_LIST = [
+    {
+        list: "About website",
+        content: [
+            {
+                listBtn: "Home",
+                listBtnTwo: "How It Works",
+                listBtnThree: "Testimonials",
+                listBtnFour: "Why Choose Us",
+            },
+        ]
+    },
+    {
+        list: "Follow links",
+        content: [
+            {
+                listBtn: "Instagram",
+                listBtnTwo: "Twitter",
+                listBtnThree: "Discord",
+                listBtnFour: "You Tube",
+            },
+        ]
+    },
+] 
