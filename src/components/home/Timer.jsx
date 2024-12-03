@@ -14,7 +14,8 @@ function TimerComponent() {
 
     return (
         <div>
-            <h1 className='flex justify-center pt-10 font-bold text-6xl'>I have rendered {count} times!</h1>
+            <h1 className='flex justify-center pt-10 font-bold text-6xl'>Timer  </h1>
+            <p className='flex justify-center text-5xl font-semibold pt-1'>{count}</p>
         </div>
     );
 }
